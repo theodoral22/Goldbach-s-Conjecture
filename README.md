@@ -1,2 +1,2 @@
-# Goldbach-s-Conjecture
-Goldbach's Conjecture states that every even integer greater than 2 can be expressed as the sum of two prime numbers. This program takes an even integer greater than 2 as input and finds two prime numbers that add up to it, demonstrating Goldbach’s Conjecture.
+This program prompts the user to enter an even integer greater than 2. It then attempts to express this number as the sum of two prime numbers, following the idea of Goldbach's Conjecture. The program searches for the smallest prime number p starting from 2 such that both p and N - p are prime. Once such a pair is found, it prints the equation p + q = N, where both p and q are prime numbers.
+If the input is invalid (not an even number or not greater than 2), the program asks the user to input the number again.
